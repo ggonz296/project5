@@ -22,7 +22,7 @@ const logUserIn = async () => {
 </script>
 
 <template>
-    <form class="m-10" @submit.prevent>
+    <form class="m-10 text-center" @submit.prevent>
         <div>
             <label for="username" class="block mb-2 font-bold">Username</label>
             <input id="username" v-model="username" type="text" placeholder="Username">
@@ -31,7 +31,7 @@ const logUserIn = async () => {
             <label for="password" class="block mb-2 font-bold">Password</label>
             <input id="password" v-model="password" type="password" placeholder="Password" >
         </div>
-        <button @click="logUserIn" class="bg-green-500 mt-4 px-4 py-2 hover:bg-green-800 hover:text-white">LOGIN</button>
+        <button @click="logUserIn" class="bg-green-500 mt-4 px-4 py-2 hover:bg-green-800 hover:text-white rounded-lg">LOGIN</button>
     </form>
 
 </template>
