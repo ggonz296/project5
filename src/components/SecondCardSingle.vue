@@ -16,7 +16,7 @@ const description = faker.commerce.productDescription()
             <img class="object-fill h-4800 w-9600 rounded-t-lg" v-bind:src="faker.image.urlLoremFlickr({category:'technology', height: 48000000, width: 96000000})" />
             <div class="p-4">
                 <p class="mb-2 text-2xl font-bold">{{ productname }}</p>
-                <p class="mb-3 font-normal text-gray-800">Price: {{ price }}</p>
+                <p class="mb-3 font-normal text-gray-800">Price: ${{ price }}</p>
                 <p class="mb-3 font-normal text-gray-800">Description: {{ description }}</p>
             </div>
         </div>
