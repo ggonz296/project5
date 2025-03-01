@@ -7,6 +7,5 @@ import SecondCards from '@/components/SecondCards.vue';
 
 <template>
   <MainCards></MainCards>
-  <SecondCards></SecondCards>
   <MainPagination></MainPagination>
 </template>
